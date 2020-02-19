@@ -1,7 +1,9 @@
 /* Private class member demo */
 
 class Greet {
-	#name = 'World';  get name() {
+    #name = 'World';
+
+    get name() {
 		return this.#name;
 	}
 	set name(name) {
